@@ -3,8 +3,7 @@ Lazy Node.js FFMpeg wrapper for streaming RTSP into MotionJPEG. It runs FFMpeg p
 its `data` event. Every `data` event contains one image `Buffer` object.
 
 ## 更改了ffmpeg的转码配置
-    当我解码输入rtsp的视频流时，一切正常，但是我们采用的海康摄像头通过映射端口用外网访问会解码失败，虽然映射使用了UDP/TCP协议，
-当时还需要ffmpeg强制使用TCP协议转码。
+    当我解码输入rtsp的视频流时，一切正常，但是我们采用的海康摄像头通过映射端口用外网访问会解码失败，虽然映射使用了UDP/TCP协议，还需要ffmpeg强制使用TCP协议转码。
 
 ## Installation
 
